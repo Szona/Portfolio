@@ -47,7 +47,7 @@ onTouch(e) {
 
           <figure className='project' onTouchEnd={ this.onTouch} onMouseEnter={ this.mouseHover } onMouseLeave={ this.mouseHover }>
             <span className="img2"></span>
-            {this.state.isHovering && <Figcaption title='My Reads' url='https://github.com/Szona/reactnd-project-myreads-starter' />}
+            {this.state.isHovering && <Figcaption title='My Reads' url='https://szona.github.io/my-reads/' />}
           </figure>
 
           <figure className='project' onTouchEnd={ this.onTouch} onMouseEnter={ this.mouseHover } onMouseLeave={ this.mouseHover }>

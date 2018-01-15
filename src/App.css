@@ -463,8 +463,8 @@ figcaption h2 {
   }
   .about {
     width: 80vw;
-    height: 50vh;
-    margin: 8vh auto;
+    height: 30vh;
+    margin: 13vh auto 0 auto;
     font-size: 1em;
     font-weight: 400;
     z-index: 1;

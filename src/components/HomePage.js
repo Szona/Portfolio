@@ -7,7 +7,7 @@ import Header from '../components/Header';
 import LinesDown from '../components/LinesDown';
 import Icons from '../components/Icons';
 import MediaQuery from 'react-responsive';
-import { HashRouter, BrowserRouter as Router, Switch, Route, NavLink, Link } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, NavLink, Link } from 'react-router-dom';
 
 
 class HomePage extends React.Component {
@@ -39,7 +39,7 @@ class HomePage extends React.Component {
 
   render() {
     return (
-        <Router>
+        <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
           <div className='home-page'>
             <div className='box'>
               {this.state.showLinesDown && <LinesDown />}
@@ -74,7 +74,7 @@ class HomePage extends React.Component {
               </MediaQuery>
             </div>
           </div>
-        </Router>
+        </BrowserRouter>
     );
   }
 }

@@ -25,7 +25,7 @@ class About extends React.Component {
             <li>NPM,</li>
             <li>SVG</li>
           </ul>
-          <p>I am currently learning everything about REACT-REDUX. </p>
+          <p>I am currently learning everything about REACT. </p>
         </div>
     );
   }
