@@ -11,7 +11,7 @@ class About extends React.Component {
         <MediaQuery query="(max-width: 599px)">
           <Icons />
         </MediaQuery>
-          <p>Hi, I am Alicja and taught myself how to create websites. I would love to challenge myself and start to learn from the best. I hope to become frontend developer in near future and gain new experiences along the way.</p>
+          <p>Hi, I am Alicja and I taught myself how to create websites. I would love to challenge myself and start to learn from the best. I hope to become frontend developer in near future and gain new experiences along the way.</p>
           <p className='skills'>I use comfortably:</p>
           <ul className='skills-list'>
             <li>HTML5,</li>
